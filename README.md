@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PROJET GITLAB DATASCIENTEST
 
 
@@ -54,3 +55,7 @@
 
 ##Documentation Page
 ![ScreenShot](https://github.com/DataScientest/gitlab_devops_exams/blob/main/docs.png)
+=======
+# gitlab-exam
+Sauvegarde du dossier docker gitlab_devops_exams corrigé
+>>>>>>> 10339de89bee4590aa6e09e9aba3b2a0633ee6c6
