@@ -3,7 +3,7 @@ version: '3.7'
 services:
     gateway:
         image: baranbartu/k-api-gateway:latest
-        command: sh -c "uvicorn main:app --reload --host 0.0.0.0"
+        command: sh -c "python3 -m uvicorn main:app --reload --host 0.0.0.0"
         build:
             context: ./gateway
             dockerfile: Dockerfile
@@ -19,7 +19,7 @@ services:
 
     users:
         image: baranbartu/k-users:latest
-        command: sh -c "uvicorn main:app --reload --host 0.0.0.0"
+        command: sh -c "python3 -m uvicorn main:app --reload --host 0.0.0.0"
         build:
             context: ./users
             dockerfile: Dockerfile
@@ -30,7 +30,7 @@ services:
 
     orders:
         image: baranbartu/k-orders:latest
-        command: sh -c "uvicorn main:app --reload --host 0.0.0.0"
+        command: sh -c "python3 -m uvicorn main:app --reload --host 0.0.0.0"
         build:
             context: ./orders
             dockerfile: Dockerfile
